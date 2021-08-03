@@ -151,6 +151,6 @@ const render = (core, proc) => (container, state) => {
 const demo = new GenericPackage(name, version, render, {
     io: "",
     states: {}
-}, ["service-bridge"])
+}, ["bridge"])
 
 export default demo
